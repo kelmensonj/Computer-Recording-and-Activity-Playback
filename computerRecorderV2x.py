@@ -69,7 +69,7 @@ def on_scroll(x,y,dx,dy):
 def on_click(x, y, button, pressed):
 	global STOPPER #every time you press or release any mouse button including scroll wheel, after you've hit record and before you've hit stop, this function is called
 	global L_SYS
-	if not checkSTOPPER(): checkSTOPPER will be True and will trigger this line if you've clicked the stop button
+	if not checkSTOPPER(): #checkSTOPPER will be True and will trigger this line if you've clicked the stop button
 		return False #in which case, returning False kills the mouse Listener
 	L_SYS.append([x,y,button,getTimeStamp(),pressed]) #otherwise, we append to L_SYS various information that will be useful in replaying our recorded events
 	if not pressed:
