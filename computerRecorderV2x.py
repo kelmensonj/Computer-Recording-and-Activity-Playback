@@ -15,7 +15,7 @@ from tkinter import font
 from datetime import datetime
 from pathlib import Path
 from ast import literal_eval
-import schedule
+#import schedule
 import speech_recognition #A lot of imports and dependencies. Only popular packages here that can be installed with pip. Ample docs online for these modules
 
 L_SYS = []
