@@ -15,7 +15,7 @@ from tkinter import font
 from datetime import datetime
 from pathlib import Path
 from ast import literal_eval
-import schedule
+#import schedule
 import speech_recognition
 
 
