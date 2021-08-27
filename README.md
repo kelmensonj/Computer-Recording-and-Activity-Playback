@@ -7,5 +7,5 @@ pip3 install pynput
 pip3 install pandas
 pip3 install SpeechRecognition
 ```
-
+Now you can run the script from the terminal.
 
