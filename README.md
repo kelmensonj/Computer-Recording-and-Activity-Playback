@@ -7,7 +7,7 @@ pip3 install pynput
 pip3 install pandas
 pip3 install SpeechRecognition
 ```
-Now you can run the script from the terminal. When you run the script, the box in the top left appears labelled 'Computer Record. Here you can click 'Record':
+Now you can run the script from the terminal. When you run the script, the box in the top left appears labelled 'Computer Recorder'. Here you can click 'Record':
 
 ![alt-text](https://github.com/kelmensonj/Computer-Recording-and-Activity-Playback/blob/main/gif_2.gif)
 
