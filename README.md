@@ -9,5 +9,6 @@ pip3 install SpeechRecognition
 ```
 Now you can run the script from the terminal.
 
-![alt-text](https://github.com/kelmensonj/Computer-Recording-and-Activity-Playback/blob/main/monkeyGig.gif)
+![alt-text](https://github.com/kelmensonj/Computer-Recording-and-Activity-Playback/blob/main/gif_1.gif)
+![alt-text](https://github.com/kelmensonj/Computer-Recording-and-Activity-Playback/blob/main/gif_2.gif)
 
