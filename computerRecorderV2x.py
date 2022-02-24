@@ -243,9 +243,9 @@ def popupMsg(row_list):
 	'''
 	popup = Tk()
 	popup_label = Label(popup, text=row_list).pack() #here we display a Label that is a list of all the events about to occur
-	pb = ttk.Progressbar(popup, length=200, mode='indeterminate') #this is a fail, doesn't update
-	pb.pack()
-	pb.start()   
+	#pb = ttk.Progressbar(popup, length=200, mode='indeterminate') #this is a fail, doesn't update
+	#pb.pack()
+	#pb.start()   
 	popup.update()
 		
 def listenForCommand(row_list):
