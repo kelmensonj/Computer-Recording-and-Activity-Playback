@@ -257,7 +257,7 @@ def listenForCommand(row_list):
 		try:
 			audio = recognizer.adjust_for_ambient_noise(src)
 			print("Threshold Value After calibration:" + str(recognizer.energy_threshold))
-			print("Please speak:")
+			print("Say anything to continue the replay:")
 			audio = recognizer.listen(src) #so now we're listening in using mic. The continue prompt does this because any key presses or mouse clicks defeat the purpose of replaying a recorded event sequence
 			speech_to_txt = recognizer.recognize_google(audio).lower()
 			print(speech_to_txt)
