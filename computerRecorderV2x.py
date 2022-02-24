@@ -21,7 +21,7 @@ import speech_recognition #A lot of imports and dependencies. Only popular packa
 L_SYS = []
 STOPPER = True
 SAVE_FILE = 'defaultRecordingName'
-SAFE_MODE_ENABLED = False
+SAFE_MODE_ENABLED = True
 CORNERS = ['CORNERS']
 
 def checkTime():
