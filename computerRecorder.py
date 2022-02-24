@@ -22,7 +22,7 @@ import speech_recognition
 L_SYS = []
 STOPPER = True
 SAVE_FILE = 'defaultRecordingName'
-SAFE_MODE_ENABLED = False
+SAFE_MODE_ENABLED = True
 CORNERS = ['CORNERS']
 
 #and finally, a share routine, which contains a screenshot of the beginning screen as well as the instructions to be fed
@@ -246,9 +246,9 @@ def popupMsg(row_list):
 	'''
 	popup = Tk()
 	popup_label = Label(popup, text=row_list).pack()
-	pb = ttk.Progressbar(popup, length=200, mode='indeterminate')
-	pb.pack()
-	pb.start()   
+	#pb = ttk.Progressbar(popup, length=200, mode='indeterminate')
+	#pb.pack()
+	#pb.start()   
 	popup.update()
 		
 def listenForCommand(row_list):
